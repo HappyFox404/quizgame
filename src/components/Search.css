@@ -14,14 +14,19 @@
     height: 50px;
     font-size: 1.5em;
     outline: none;
-    background-color: #c1c8c7;
-    color:#252b31;
+    background-color: transparent;
+    color:#f6fafb;
     border-radius: 10px;
-    border: none;
+    border: 2px solid #c1c8c7;
+    transition: all 0.2s ease-in-out;
+}
+
+.Search input::placeholder {
+    color:#f6fafb;
 }
 
 .Search input:focus {
-    box-shadow: ;
+    box-shadow: 0 0 2px 2px #f6fafb;
 }
 
 .Search .Button {
@@ -31,7 +36,13 @@
     align-items: center;
     justify-content: center;
     font-size: 2em;
-    background-color: #c1c8c7;
+    background-color: #f6fafb;
     color:#252b31;
     border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+    cursor: default;
+}
+
+.Search .Button:hover {
+    box-shadow: 0 0 2px 2px #f6fafb;
 }
