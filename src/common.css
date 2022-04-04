@@ -1,0 +1,23 @@
+/*
+  https: //color.romanuke.com/czvetovaya-palitra-4288/
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Rubik Bubbles', cursive;
+
+  #252b31
+  #5e6668
+  #c1c8c7
+  #f6fafb
+  #d49c6b
+*/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6fafb;
+}

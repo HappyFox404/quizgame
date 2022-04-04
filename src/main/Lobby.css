@@ -1,0 +1,19 @@
+.Lobby {
+    display: grid;
+    grid-template-areas: "Header ."
+                        "Content Content";
+    width: 100%;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: 100px 1fr;
+    color:#f6fafb;
+}
+
+.Lobby .Header {
+    grid-area: Header;
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 2.2em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

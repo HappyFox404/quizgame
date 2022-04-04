@@ -1,0 +1,37 @@
+.Search {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Search input {
+    flex-grow: 2;
+    margin: 0 10px 0 0;
+    padding: 5px;
+    height: 50px;
+    font-size: 1.5em;
+    outline: none;
+    background-color: #c1c8c7;
+    color:#252b31;
+    border-radius: 10px;
+    border: none;
+}
+
+.Search input:focus {
+    box-shadow: ;
+}
+
+.Search .Button {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    background-color: #c1c8c7;
+    color:#252b31;
+    border-radius: 10px;
+}
