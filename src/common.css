@@ -21,3 +21,44 @@
 body {
   background-color: #f6fafb;
 }
+
+input {
+  flex-grow: 2;
+  margin: 0 10px 0 0;
+  padding: 5px;
+  height: 50px;
+  font-size: 1.5em;
+  outline: none;
+  background-color: transparent;
+  color:#f6fafb;
+  border-radius: 10px;
+  border: 2px solid #c1c8c7;
+  transition: all 0.2s ease-in-out;
+}
+
+input::placeholder {
+  color:#f6fafb;
+}
+
+input:focus {
+  box-shadow: 0 0 2px 2px #f6fafb;
+}
+
+.Button {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  background-color: #f6fafb;
+  color:#252b31;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+  cursor: default;
+  text-align: center;
+}
+
+.Button:hover {
+  box-shadow: 0 0 2px 2px #f6fafb;
+}

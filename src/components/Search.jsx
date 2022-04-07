@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Search.css';
 
-export default function Search({actionEdit, action}) {
+export default function Search({actionEdit, action, style}) {
 
     const [Value,setValue] = useState('');
 
@@ -18,7 +18,7 @@ export default function Search({actionEdit, action}) {
     };
 
     return (
-        <div className='Search'>
+        <div className='Search' style={style}>
             <input type='text' placeholder='Поиск' value={Value} onChange={OnChange}/>
             <div className='Button' onClick={Search}>&#9658;</div>
         </div>
